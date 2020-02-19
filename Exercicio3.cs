@@ -1,21 +1,34 @@
 using System;
 
-class MainClass {
-  public static void Main (string[] args) {
-    double R;
-    double altura;
-    double volume;
+namespace Exercicio3
+{
+	class Program {
 
-    Console.WriteLine("Bem vindo!");
+		static void Main(string[] args)
+		{
+			double R;
+      double altura;
+      double volume;
 
-    Console.WriteLine("Digite o Raio: ");
-    R = double.Parse(Console.ReadLine());
+      Console.WriteLine("Bem vindo!");
 
-    Console.WriteLine("Digite a altura: ");
-    altura = double.Parse(Console.ReadLine());
+      Console.WriteLine("Digite o Raio: ");
+      R = double.Parse(Console.ReadLine());
 
-    volume = 3.14159 * (R * R) * altura;
+      Console.WriteLine("Digite a altura: ");
+      altura = double.Parse(Console.ReadLine());
 
-    Console.WriteLine("O volume é de: " + volume);
-  }
+      volume = 3.14159 * (R * R) * altura;
+
+      Console.WriteLine("O volume é de: " + volume);
+		}
+	}
 }
+
+
+
+
+
+
+
+
